@@ -1,0 +1,50 @@
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 15px;
+  }
+
+   .heading h2 {
+    font-size: 10px;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+    
+  .btn {
+    width: 100%;
+  }
+
+  .top-wrapper {
+    text-align: left;
+    padding-top: 130px;
+  }
+
+   .header-right{
+    display:none;
+  }
+
+   .menu-icon{
+    display:block;
+  }
+  
+}
